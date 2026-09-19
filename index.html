@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Özdemir Ticaret | Amasya Merzifon Doğal Kaynak Suyu & Damacana Siparişi</title>
+  <meta name="description" content="Özdemir Ticaret - Amasya Merzifon doğal kaynak suyu ve damacana su dağıtım merkezi. 19L damacana, cam damacana, pet şişe ve su pompaları. Merzifon mahallelerine hızlı teslimat.">
+
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-info">
+        <span><i class="fa-solid fa-phone-volume"></i> Merzifon Sipariş Hattı: <strong>0850 555 08 38</strong></span>
+        <span><i class="fa-solid fa-truck-fast"></i> Merzifon Mahallelerine 20-30 Dk Teslimat</span>
+        <span><i class="fa-solid fa-clock"></i> Çalışma Saatleri: 08:00 - 22:00</span>
+      </div>
+      <div class="topbar-actions">
+        <a href="https://wa.me/905551234567" target="_blank" class="topbar-link">
+          <i class="fa-brands fa-whatsapp" style="color: #25d366;"></i> WhatsApp Sipariş
+        </a>
+        <a href="#bayilik" class="topbar-link"><i class="fa-solid fa-handshake"></i> Bayilik Başvurusu</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="brand-logo">
+          <img src="images/logo.png" alt="Özdemir Ticaret Logo">
+          <div class="brand-text">
+            <span class="brand-name">ÖZDEMİR TİCARET</span>
+            <span class="brand-subtitle">AMASYA MERZİFON SU DAĞITIM</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="#" class="nav-link active">Ana Sayfa</a></li>
+          <li><a href="#urunler" class="nav-link">Ürünlerimiz</a></li>
+          <li><a href="#su-ve-saglik" class="nav-link">Su & Sağlık</a></li>
+          <li><a href="#analiz" class="nav-link">Analiz Raporu</a></li>
+          <li><a href="#teslimat" class="nav-link">Merzifon Bölgeleri</a></li>
+          <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+        </ul>
+
+        <div class="header-right">
+          <button class="cart-btn-trigger" id="cart-trigger" aria-label="Sepeti Aç">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Sepetim</span>
+            <span class="cart-count-badge" id="cart-badge">0</span>
+          </button>
+          <button class="mobile-toggle" id="mobile-menu-toggle" aria-label="Menü">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+      <ul class="mobile-nav-links">
+        <li><a href="#" class="nav-link">Ana Sayfa</a></li>
+        <li><a href="#urunler" class="nav-link">Ürünlerimiz</a></li>
+        <li><a href="#su-ve-saglik" class="nav-link">Su & Sağlık</a></li>
+        <li><a href="#analiz" class="nav-link">Analiz Raporu</a></li>
+        <li><a href="#teslimat" class="nav-link">Merzifon Bölgeleri</a></li>
+        <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <i class="fa-solid fa-location-dot"></i> Amasya Merzifon Yetkili Su Dağıtım Merkezi
+        </div>
+        <h1 class="hero-title">Merzifon'da <span>Saf ve Sağlıklı</span> Doğal Kaynak Suyu Kapınızda</h1>
+        <p class="hero-description">
+          Özdemir Ticaret güvencesiyle Amasya Merzifon genelindeki tüm mahallelere 7.9 pH alkali değerine sahip, hijyenik ve taze doğal kaynak suyu teslimatı yapıyoruz.
+        </p>
+        <div class="hero-actions">
+          <a href="#urunler" class="btn btn-primary"><i class="fa-solid fa-basket-shopping"></i> Hemen Sipariş Ver</a>
+          <a href="https://wa.me/905551234567" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp Merzifon Sipariş</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Feature Specs Bar -->
+  <div class="hero-features-bar">
+    <div class="container">
+      <div class="features-card-grid">
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="feature-info">
+            <h4>Merzifon İçi Hızlı Servis</h4>
+            <p>Tüm mahallelere anında kurye</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-flask-vial"></i></div>
+          <div class="feature-info">
+            <h4>7.9 pH Alkali Değer</h4>
+            <p>Yüksek mineralli saf su</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-wine-bottle"></i></div>
+          <div class="feature-info">
+            <h4>%100 Cam Damacana</h4>
+            <p>Sağlıklı cam ambalaj seçeneği</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <div class="feature-info">
+            <h4>%100 El Değmeden</h4>
+            <p>Tam otomatik hijyenik dolum</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Products Section -->
+  <section class="section" id="urunler">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Geniş Ürün Yelpazesi</span>
+        <h2 class="section-title">İhtiyacınıza Uygun Su Çeşitlerimiz</h2>
+        <p class="section-desc">Merzifon ev, iş yeri ve kurumları için cam damacanadan pet şişe gruplarına kadar seçkin kaynak suları.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="tab-btn active" data-filter="all">Tüm Ürünler</button>
+        <button class="tab-btn" data-filter="damacana">19L Damacana</button>
+        <button class="tab-btn" data-filter="cam-damacana">Cam Damacana</button>
+        <button class="tab-btn" data-filter="pet">Pet Şişe Grubu</button>
+        <button class="tab-btn" data-filter="aksesuar">Aksesuarlar & Pompalar</button>
+      </div>
+
+      <!-- Products Grid (Populated by JS) -->
+      <div class="products-grid" id="products-container"></div>
+    </div>
+  </section>
+
+  <!-- Water Consumption Calculator -->
+  <section class="container" id="su-ve-saglik">
+    <div class="calculator-section">
+      <div class="calculator-grid">
+        <div class="calc-info">
+          <span class="badge badge-cyan" style="margin-bottom: 12px; background: rgba(255,255,255,0.2); color:#ffffff;">İnteraktif Hesaplama</span>
+          <h3>Günlük Su İhtiyacınızı Hesaplayın</h3>
+          <p>Sağlıklı bir yaşam için vücudunuzun günlük ne kadar suya ihtiyaç duyduğunu öğrenin. Kilonuzu ve aktivite seviyenizi girerek anında hesaplayın!</p>
+          
+          <div class="calc-form">
+            <div class="form-group">
+              <label class="form-label" for="calc-weight">Vücut Ağırlığınız (kg):</label>
+              <input type="number" id="calc-weight" class="form-control" value="70" min="30" max="180">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="calc-activity">Günlük Fiziksel Aktivite Düzeyi:</label>
+              <select id="calc-activity" class="form-control">
+                <option value="1.0">Masa Başı / Düşük Aktivite</option>
+                <option value="1.2">Orta Seviye Spor / Hareketli</option>
+                <option value="1.4">Yoğun Antrenman / Ağır İş</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="calc-results-box">
+          <i class="fa-solid fa-glass-water" style="font-size: 3rem; color: var(--primary-blue);"></i>
+          <p style="font-weight: 700; color: var(--text-muted); margin-top: 10px;">ÖNERİLEN GÜNLÜK TÜKETİM</p>
+          <div class="calc-result-number" id="calc-result-liters">2.5 Litre</div>
+          <div class="calc-result-sub" id="calc-result-glasses">(Yaklaşık 12 Bardak Su / Gün)</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">
+            Düzenli su tüketimi sindirim sisteminizi düzenler, cildinizi tazeler ve gün boyu yüksek enerji verir.
+          </p>
+          <a href="#urunler" class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-arrow-down"></i> Hemen Damacana Sipariş Ver</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quality & Mineral Analysis Table -->
+  <section class="section" id="analiz">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Kalite & Şeffaflık</span>
+        <h2 class="section-title">Suyumuzun Mineral & pH Analiz Raporu</h2>
+        <p class="section-desc">Sağlık Bakanlığı onaylı laboratuvar testleri ile belgelenmiş Özdemir Ticaret doğal kaynak suyu değerleri.</p>
+      </div>
+
+      <div class="analysis-card">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px;">
+          <div>
+            <h3 style="font-size: 1.4rem; color: var(--primary-dark); font-weight: 800;">Doğal Mineralli Kaynak Suyu</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Analiz Belgesi: Sağlık Bakanlığı Onaylı / Amasya Merzifon</p>
+          </div>
+          <div>
+            <span class="badge badge-green" style="font-size: 0.9rem; padding: 8px 16px;">
+              <i class="fa-solid fa-certificate"></i> ISO 22000 & HACCP SERTİFİKALI
+            </span>
+          </div>
+        </div>
+
+        <div class="mineral-grid">
+          <div class="mineral-item">
+            <div class="mineral-val">7.9</div>
+            <div class="mineral-name">pH Değeri</div>
+            <div class="mineral-desc">İdeal Alkali Seviye</div>
+          </div>
+          <div class="mineral-item">
+            <div class="mineral-val">28.4</div>
+            <div class="mineral-name">Kalsiyum (Ca++)</div>
+            <div class="mineral-desc">mg/L Güçlü Kemikler</div>
+          </div>
+          <div class="mineral-item">
+            <div class="mineral-val">6.2</div>
+            <div class="mineral-name">Magnezyum (Mg++)</div>
+            <div class="mineral-desc">mg/L Kas ve Kalp Sağlığı</div>
+          </div>
+          <div class="mineral-item">
+            <div class="mineral-val">98.0</div>
+            <div class="mineral-name">Bikarbonat (HCO3)</div>
+            <div class="mineral-desc">mg/L Kolay Sindirim</div>
+          </div>
+          <div class="mineral-item">
+            <div class="mineral-val">3.1</div>
+            <div class="mineral-name">Düşük Sodyum (Na+)</div>
+            <div class="mineral-desc">mg/L Kalp & Tansiyon Dostu</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section" style="background: #ffffff;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Neden Özdemir Ticaret?</span>
+        <h2 class="section-title">Merzifon Halkına Sunduğumuz Ayrıcalıklar</h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-pump-soap"></i></div>
+          <h3 class="why-title">El Değmeyen Hijyen</h3>
+          <p class="why-desc">Tüm damacanalarımız otomatik yıkama ve ozonlu dezenfeksiyon tünellerinde el değmeden dolum yapılır.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-stopwatch"></i></div>
+          <h3 class="why-title">Zamanında Teslimat</h3>
+          <p class="why-desc">Merzifon mahallelerine verdiğiniz siparişler ortalama 20-30 dakika içerisinde kapınızda.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3 class="why-title">Sağlıklı Cam Ambalaj</h3>
+          <p class="why-desc">Plastik teması istemeyen aileler için %100 saf 19 Litre ve 0.75L özel cam damacana seçenekleri.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-tags"></i></div>
+          <h3 class="why-title">Abone İndirimleri</h3>
+          <p class="why-desc">Düzenli damacana siparişlerinizde ücretsiz sebil bakımı ve pompa hediye fırsatları.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery Areas & Service Checker (Amasya Merzifon Mahalleleri) -->
+  <section class="section" id="teslimat">
+    <div class="container">
+      <div class="delivery-box">
+        <div>
+          <span class="section-subtitle">Merzifon Dağıtım Ağımız</span>
+          <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--primary-dark); margin-bottom: 12px;">Merzifon Mahalleleri & Servis Süreleri</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 18px;">
+            Amasya Merzifon ilçe merkezindeki tüm mahallelere özel dağıtım araçlarımız ve hızlı kuryelerimiz ile kesintisiz su teslimatı yapıyoruz.
+          </p>
+          <div class="form-group" style="margin-bottom: 0;">
+            <input type="text" id="district-search" class="form-control" style="background: #ffffff; color: var(--text-main); border: 1px solid var(--border-color);" placeholder="Merzifon mahallesi arayın..." oninput="checkDistrictDelivery()">
+          </div>
+        </div>
+
+        <div>
+          <div class="district-list-grid" id="district-list">
+            <div class="district-pill">
+              <span>Harmanlar Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-25 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Bahçelievler Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-25 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Yunus Emre Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 20-30 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Hacıhasan Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-20 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Sofular Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-20 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Mehmet Akif Ersoy Mh.</span>
+              <span><i class="fa-solid fa-circle-check"></i> 20-30 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Gazi Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-25 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Mahsen Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-20 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Abide Hatun Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 20-30 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Nusratiye Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 20-30 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Camicedit Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-20 Dk</span>
+            </div>
+            <div class="district-pill">
+              <span>Hocasüleyman Mahallesi</span>
+              <span><i class="fa-solid fa-circle-check"></i> 15-25 Dk</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands Logo Ticker (Çalıştığımız Seçkin Su Markaları - SSS Üstü Sonsuz Şerit) -->
+  <section class="brands-ticker-section">
+    <div class="container">
+      <div class="brands-header">
+        <span class="section-subtitle">Güvenilir Distribütörlük & İş Ortakları</span>
+        <h3 class="brands-title">Birlikte Çalıştığımız Seçkin Su Markaları</h3>
+      </div>
+      <div class="ticker-wrapper">
+        <div class="ticker-track">
+          <!-- Set 1 -->
+          <div class="brand-item"><img src="images/brands/saka.png" alt="Saka Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/uludag.png" alt="Uludağ Logo"></div>
+          <div class="brand-item"><img src="images/brands/akdag.png" alt="Akdağ Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/munzur.png" alt="Munzur Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/erikli.png" alt="Erikli Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/pinar.png" alt="Pınar Su Logo"></div>
+          
+          <!-- Duplicate Set for Seamless Continuous Infinite Loop -->
+          <div class="brand-item"><img src="images/brands/saka.png" alt="Saka Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/uludag.png" alt="Uludağ Logo"></div>
+          <div class="brand-item"><img src="images/brands/akdag.png" alt="Akdağ Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/munzur.png" alt="Munzur Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/erikli.png" alt="Erikli Su Logo"></div>
+          <div class="brand-item"><img src="images/brands/pinar.png" alt="Pınar Su Logo"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section (Sıkça Sorulan Sorular) -->
+  <section class="section" id="faq-section" style="background: var(--light-bg);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Sıkça Sorulan Sorular</span>
+        <h2 class="section-title">Aklınıza Takılan Sorular</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Farklı marka damacanayı Özdemir Ticaret damacanası ile değiştirebilir miyim?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Evet! Merzifon içinde standartlara uygun ve yıpranmamış diğer marka polikarbon damacanalarınızı ücretsiz olarak değişim yapıyoruz. Ek depozito ücreti ödemezsiniz.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Kapıda hangi ödeme yöntemlerini kabul ediyorsunuz?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Kapıda Temassız Kredi Kartı, Banka Kartı, Nakit ve Mobil Pos cihazlarımız ile güvenle ödeme yapabilirsiniz.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Cam damacana kullanımında stant veya pompa veriyor musunuz?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            İlk cam damacana siparişinizde özel tasarım ahşap alt stant ve steril pompayı indirimli paket olarak temin edebilirsiniz.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Corporate / Dealer Application Section -->
+  <section class="section" id="bayilik" style="background: #ffffff;">
+    <div class="container">
+      <div class="delivery-box" style="background: linear-gradient(135deg, var(--primary-dark), #004080); color: #ffffff;">
+        <div>
+          <span class="badge badge-cyan" style="margin-bottom: 12px; color: #ffffff; background: rgba(255,255,255,0.2);">Kurumsal İş Birliği</span>
+          <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 15px;">Özdemir Ticaret Bayisi Olun</h2>
+          <p style="color: #e0f2fe; line-height: 1.7;">
+            Amasya ve Merzifon bölgesinde büyüyen su dağıtım ağımızda yerinizi alın. Yüksek kâr marjı, güçlü lojistik desteği ve kurumsal altyapımız ile kendi bölgenizin lider su bayisi olun.
+          </p>
+        </div>
+
+        <div>
+          <form style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 25px; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.2);" onsubmit="alert('Başvurunuz alındı. Merzifon müşteri temsilcimiz en kısa sürede sizinle iletişime geçecektir.'); return false;">
+            <div class="form-group">
+              <label class="form-label">Adınız Soyadınız:</label>
+              <input type="text" class="form-control" required placeholder="Ahmet Yılmaz">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Telefon Numarası:</label>
+              <input type="tel" class="form-control" required placeholder="0555 123 45 67">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Başvuru Yapılan Mahalle / Bölge:</label>
+              <input type="text" class="form-control" required placeholder="Amasya / Merzifon / Harmanlar Mh.">
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="fa-solid fa-paper-plane"></i> Bayilik Başvurusu Gönder</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="iletisim">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>ÖZDEMİR TİCARET</h3>
+          <p>
+            Amasya Merzifon halkına doğal kaynak suyunun en saf halini 1998'den beri güvenle sunuyoruz. Hijyenik, kaliteli ve hızlı su siparişinin adresi.
+          </p>
+          <div style="display: flex; gap: 12px; font-size: 1.2rem;">
+            <a href="#" style="color: var(--hydro-cyan);"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" style="color: var(--hydro-cyan);"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/905551234567" target="_blank" style="color: #25d366;"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hızlı Bağlantılar</h4>
+          <ul class="footer-links">
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#urunler">Ürünlerimiz</a></li>
+            <li><a href="#su-ve-saglik">Su & Sağlık</a></li>
+            <li><a href="#analiz">Analiz Raporu</a></li>
+            <li><a href="#bayilik">Bayilik Başvurusu</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Ürün Grupları</h4>
+          <ul class="footer-links">
+            <li><a href="#urunler">19L Damacana Su</a></li>
+            <li><a href="#urunler">19L Cam Damacana</a></li>
+            <li><a href="#urunler">0.5L / 1.5L / 5L Pet</a></li>
+            <li><a href="#urunler">Şarjlı Otomatik Pompa</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>İletişim & Merkez</h4>
+          <ul class="footer-contact">
+            <li><i class="fa-solid fa-location-dot"></i> <span>Özdemir Ticaret Su Dağıtım Merkezi, Merzifon / Amasya</span></li>
+            <li><i class="fa-solid fa-phone"></i> <span>0850 555 08 38</span></li>
+            <li><i class="fa-solid fa-envelope"></i> <span>info@ozdemirticaret.com.tr</span></li>
+            <li><i class="fa-solid fa-clock"></i> <span>Haftanın 7 Günü: 08:00 - 22:00</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Özdemir Ticaret - Amasya Merzifon - Tüm Hakları Saklıdır.</p>
+        <p>Gizlilik Politikası | KVKK Aydınlatma Metni</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-over Cart Drawer -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="drawer-header">
+      <div class="drawer-title"><i class="fa-solid fa-basket-shopping" style="color: var(--primary-blue);"></i> Merzifon Sipariş Sepetim</div>
+      <button class="close-btn" id="close-drawer-btn" aria-label="Kapat"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="cart-items-body" id="cart-items-container">
+      <!-- Cart items populated by JS -->
+    </div>
+
+    <div class="drawer-footer">
+      <div class="summary-row">
+        <span>Ara Toplam:</span>
+        <span id="cart-subtotal">₺0.00</span>
+      </div>
+      <div class="summary-row">
+        <span>Merzifon İçi Kurye Teslimatı:</span>
+        <span style="color: var(--success-green); font-weight: 700;">ÜCRETSİZ</span>
+      </div>
+      <div class="summary-row total">
+        <span>Genel Toplam:</span>
+        <span id="cart-total">₺0.00</span>
+      </div>
+      <button class="btn btn-primary" style="width: 100%; margin-top: 15px;" onclick="openCheckoutModal()">
+        <i class="fa-solid fa-check"></i> Siparişi Tamamla
+      </button>
+    </div>
+  </aside>
+
+  <!-- Checkout Order Modal Overlay -->
+  <div class="modal-overlay" id="order-modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 style="font-size: 1.15rem; font-weight: 800;"><i class="fa-solid fa-truck-ramp-box"></i> Merzifon Teslimat & Adres Bilgileri</h3>
+        <button class="close-btn" onclick="closeCheckoutModal()" style="color: #ffffff;"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="modal-body">
+        <form onsubmit="submitOrder(event)">
+          <div class="form-group">
+            <label class="form-label" style="color: var(--primary-dark);">Ad Soyad:</label>
+            <input type="text" id="order-name" class="form-control" style="background: #ffffff; color: var(--text-main); border: 1px solid var(--border-color);" required placeholder="Ahmet Yılmaz">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" style="color: var(--primary-dark);">Telefon Numarası:</label>
+            <input type="tel" id="order-phone" class="form-control" style="background: #ffffff; color: var(--text-main); border: 1px solid var(--border-color);" required placeholder="0555 123 45 67">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" style="color: var(--primary-dark);">Merzifon Mahalle Seçimi:</label>
+            <select id="order-district" class="form-control" style="background: #ffffff; color: var(--text-main); border: 1px solid var(--border-color);" required>
+              <option value="Merzifon / Harmanlar Mahallesi">Harmanlar Mahallesi</option>
+              <option value="Merzifon / Bahçelievler Mahallesi">Bahçelievler Mahallesi</option>
+              <option value="Merzifon / Yunus Emre Mahallesi">Yunus Emre Mahallesi</option>
+              <option value="Merzifon / Hacıhasan Mahallesi">Hacıhasan Mahallesi</option>
+              <option value="Merzifon / Sofular Mahallesi">Sofular Mahallesi</option>
+              <option value="Merzifon / Mehmet Akif Ersoy Mh.">Mehmet Akif Ersoy Mahallesi</option>
+              <option value="Merzifon / Gazi Mahallesi">Gazi Mahallesi</option>
+              <option value="Merzifon / Mahsen Mahallesi">Mahsen Mahallesi</option>
+              <option value="Merzifon / Abide Hatun Mahallesi">Abide Hatun Mahallesi</option>
+              <option value="Merzifon / Nusratiye Mahallesi">Nusratiye Mahallesi</option>
+              <option value="Merzifon / Camicedit Mahallesi">Camicedit Mahallesi</option>
+              <option value="Merzifon / Hocasüleyman Mahallesi">Hocasüleyman Mahallesi</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" style="color: var(--primary-dark);">Açık Adres (Sokak, Bina No, Daire):</label>
+            <textarea id="order-address" class="form-control" style="background: #ffffff; color: var(--text-main); border: 1px solid var(--border-color);" rows="2" required placeholder="Cumhuriyet Cad. No:12 Daire:4"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" style="color: var(--primary-dark);">Ödeme Yöntemi:</label>
+            <select id="order-payment" class="form-control" style="background: #ffffff; color: var(--text-main); border: 1px solid var(--border-color);">
+              <option value="Kapıda Kredi Kartı / Temassız">Kapıda Temassız Kredi Kartı</option>
+              <option value="Kapıda Nakit Ödeme">Kapıda Nakit Ödeme</option>
+              <option value="Online / Havale">Online Havale / EFT</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" style="color: var(--primary-dark);">Sipariş Notu (Opsiyonel):</label>
+            <input type="text" id="order-note" class="form-control" style="background: #ffffff; color: var(--text-main); border: 1px solid var(--border-color);" placeholder="Örn: Zile basmayın, kapıya bırakın">
+          </div>
+
+          <button type="submit" class="btn btn-whatsapp" style="width: 100%; font-size: 1rem; padding: 14px;">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp İle Siparişi Onayla & Gönder
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
